@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+        body {
+            margin: 0;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #000;
+            color: white;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 70px;
+            background:black;
+        }
+        .logo {
+            font-size: 40px;
+            color: white;
+            font-style: oblique;
+            font-family: 'Jersey 25', sans-serif;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            justify-content: space-around; 
+            
+        }
+        nav {
+            display: flex;
+            justify-content: space-around; 
+            align-items: center;
+        }
+        nav a {
+            flex: 1;
+            text-align: center;
+            padding: 25px 29px;
+        }
+        .contact-btn {
+            background: #008080;
+            padding: 10px 20px;
+            border-radius: 5px;
+            padding-top: 30px;
+        }
+        .contact-btn:hover {
+            color: black;
+            background: #4cffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            padding-top: 30px;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 80px;
+            background: url('bg5.jpg') no-repeat center center/cover;
+            height: 80vh;
+            text-align: left;
+            
+        }
+        
+        .content {
+            max-width: 500px;           
+            margin-left: 800px;
+            margin-bottom: 100px;
+        }
+        .thin-text {
+            font-weight:lighter; 
+            color:white;
+        }
+
+        .bold-text {
+            color: #4cffff;
+            font-weight: 700; 
+        }
+        h1 {
+            font-size: 60px;
+            margin: 0;
+        }
+        h1 span {
+            color: #008080;
+        }
+        p {
+            color:rgb(182, 178, 178);
+            font-weight: lighter;
+            font-size: 18px;
+            line-height: 1.7;
+            
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .hire-me, .download-cv {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .hire-me {
+            background: #008080;
+            margin-right: 15px;
+        }
+        .hire-me:hover {
+            background: #4cffff;
+        }
+        .download-cv {
+            background: #008080;
+            color: black;
+        }
+        .download-cv:hover {
+            background: #4cffff;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MDWN</div>
+        <nav>
+            <ul>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="educationalBackground.html">Educational Background</a></li>
+                <li><a href="#" class="contact-btn">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        
+        <div class="content">
+            <h1><span class="thin-text">Medwin</span> <span class="bold-text">Gardose</span></h1>
+            <p>Hey there! I'm Medwin, an STI College student who loves designing and programming. I'm here to help bring your ideas to life, whether it's through UI, UX, or development. Take a look at my portfolio to get a feel for what I do, and feel free to reach out if you want to collaborate!</p>
+            <div class="buttons">
+                <button class="hire-me">Hire Me</button>
+                <button class="download-cv">Download CV</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
